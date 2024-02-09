@@ -1,0 +1,72 @@
+/* App.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: 'Arial', sans-serif; /* Default font */
+  color: #333; /* Dark text color */
+}
+
+.app-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-box {
+  background-color: #ffffff; /* White background for chart boxes */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.fetch-button {
+  background-color: #28a745; /* Green button color */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  outline: none; /* Remove default button focus outline */
+}
+
+.fetch-button:hover {
+  background-color: #218838; /* Darker green when hovering */
+}
+
+/* Add subtle box-shadow and transition effect for hover */
+.fetch-button:hover,
+.chart-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow intensity on hover */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Add a border to the chart-box for a cleaner look */
+.chart-box {
+  border: 1px solid #eaeaea; /* Light gray border */
+}
+
+/* Responsive layout for smaller screens */
+@media only screen and (max-width: 768px) {
+  .chart-container {
+    width: 90%;
+  }
+}
