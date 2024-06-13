@@ -4,7 +4,8 @@
 
 This project is a React web application designed to fetch and visualize live blockchain data, including transaction counts, gas fees, and gas usage ratios. It utilizes the Alchemy SDK for interfacing with the Ethereum blockchain and Google Charts for data visualization.
 
-![Screenshot 2024-02-08 205127](https://github.com/Danishlynx/metana_bootcamp/assets/69537135/17b2a5b0-cec0-4d15-9a82-4cb6238f2645)
+![Screenshot 2024-06-13 130515](https://github.com/Danishlynx/Charts_using_EthereumAPI/assets/69537135/9b351c01-2a08-41bb-8002-ec3ddb4d8be8)
+
 
 
 ## Features
