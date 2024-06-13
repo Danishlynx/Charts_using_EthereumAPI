@@ -1,103 +1,70 @@
-# Blockchain Data Visualization App
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a React web application designed to fetch and visualize live blockchain data, including transaction counts, gas fees, and gas usage ratios. It utilizes the Alchemy SDK for interfacing with the Ethereum blockchain and Google Charts for data visualization.
+## Available Scripts
 
-![Screenshot 2024-02-08 205127](https://github.com/Danishlynx/metana_bootcamp/assets/69537135/17b2a5b0-cec0-4d15-9a82-4cb6238f2645)
+In the project directory, you can run:
 
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Live Data Fetching**: The app retrieves live blockchain data using the Alchemy SDK, including transaction logs and gas-related information.
-  
-- **Data Visualization**: Utilizes Google Charts to visualize blockchain data in three charts:
-  - Transactions per Block
-  - Base Fee Per Gas
-  - Gas Used Ratio
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Interactivity**: Users can fetch updated data on-demand with a single button click.
+### `npm test`
 
-## Installation
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone the repository:
-```
-git clone https://github.com/Danishlynx/metana_bootcamp.git
+### `npm run build`
 
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Navigate to the project directory:
-```
-cd metana_bootcamp/module_5/module_5
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-3. Install dependencies:
-```
-npm install
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-4. Set up environment variables:
-- Create a `.env` file in the root directory with the following content:
-  ```
-  REACT_APP_ALCHEMY_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxx"
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-  ```
+## Learn More
 
-5. Start the development server:
-```
-npm start
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Usage
+### Code Splitting
 
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Click the "Fetch Current Data" button to fetch and visualize the latest blockchain data.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Technologies Used
+### Analyzing the Bundle Size
 
-- **React**: Frontend framework for building the user interface.
-- **Alchemy SDK**: Interface with the Ethereum blockchain for fetching live data.
-- **Google Charts**: Library for visualizing data in charts.
-- **npm**: Package manager for installing project dependencies.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Folder Structure
+### Making a Progressive Web App
 
-metana_bootcamp/
-│
-├── module_5/
-│   ├── module_5/
-│   │   ├── src/
-│   │   │   ├── App.js
-│   │   │   ├── App.css
-│   │   │   ├── components/
-│   │   │   │   ├── log.js
-│   │   │   │   ├── gas.js
-│   │   │   │   └── ...
-│   │   │   └── ...
-│   │   ├── .env
-│   │   ├── package.json
-│   │   └── ...
-│   └── ...
-│
-├── .gitignore
-└── ...
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Contributing
+### Deployment
 
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## License
+### `npm run build` fails to minify
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- **Open Source Community**: Thanks to all the developers who contribute to open source projects, making resources like the Alchemy SDK and Google Charts available for use.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
